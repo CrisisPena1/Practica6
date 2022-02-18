@@ -1,6 +1,6 @@
 const cargarTipos = async()=>{
     try{
-        const url = "http://201.140.116.237/services/tipo.php"
+        const url = "tipo.json"
         await axios 
         .get(url)
         .then((res)=>{
