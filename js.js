@@ -1,6 +1,6 @@
 const cargarTipos = async()=>{
     try{
-        const url = "tipo.json"
+        const url = "tipos.json"
         await axios 
         .get(url)
         .then((res)=>{
