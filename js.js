@@ -25,7 +25,7 @@ function llenarcombos(data){
 };
 const cargarVentas=async()=>{
     try{
-     url = "http://201.140.116.237/services/ventas.php"
+     url = "ventas.json"
     await axios 
     .get(url)
     .then((res)=>{
