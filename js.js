@@ -25,7 +25,7 @@ function llenarcombos(data){
 };
 const cargarVentas=async()=>{
     try{
-     url = "ventas.json"
+     url = "https://nr-proxy.cloudno.de/201.140.116.237/services/ventas.php"
     await axios 
     .get(url)
     .then((res)=>{
