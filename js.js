@@ -1,6 +1,6 @@
 const cargarTipos = async()=>{
     try{
-        const url = "tipos.json"
+        const url = "https://nr-proxy.cloudno.de/http://201.140.116.237/services/tipo.php"
         await axios 
         .get(url)
         .then((res)=>{
